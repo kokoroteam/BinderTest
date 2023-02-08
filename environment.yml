@@ -1,4 +1,10 @@
 channels:
- -conda-forge
+  - conda-forge
 dependencies:
- -appmode
+  - appmode
+  - numpy
+  - pandas
+  - pandas-profiling
+  - yfinance
+  - pip:
+      - moneyFlowIndicator
